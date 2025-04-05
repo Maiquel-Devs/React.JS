@@ -1,0 +1,10 @@
+div.Menu > h2 {
+    text-align: center;
+    background-color: blue;
+    height: 47px;
+}
+
+div.Menu > p {
+    background-color: red;
+    font-size: 32px;
+}
