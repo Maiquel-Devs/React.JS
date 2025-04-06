@@ -1,11 +1,12 @@
 import './App.css';
 import Menu from './Menu';
+import Contador from './hooks_de_estado';
 
 function App(props) {
   return (
     <div className="App">
-      <h2>{props.texto}</h2>
       <Menu /> 
+      <Contador />
     </div>
   );
 }
