@@ -1,0 +1,18 @@
+:root {
+    --fundo-claro: #ffffff;
+    --fundo-site: #f9f5ec;
+    --texto: #333;
+    --verde-papiro: #e6e2d3;
+    --destaque: #a67c52;
+    --hover: #c19a6b;
+    --font-principal: 'Georgia', serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-principal);
+    background-color: var(--fundo-site);
+    color: var(--texto);
+    line-height: 1.8;
+  }

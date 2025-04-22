@@ -1,0 +1,64 @@
+:root {
+  --fundo-claro: #ffffff;
+  --fundo-site: #f9f5ec;
+  --texto: #333;
+  --verde-papiro: #e6e2d3;
+  --destaque: #a67c52;
+  --hover: #c19a6b;
+  --font-principal: 'Georgia', serif;
+}
+
+header {
+  background-color: var(--destaque);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: var(--font-principal);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Melhor para manter os links distantes */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: var(--hover);
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 1.5rem;
+  }
+
+  nav a {
+      font-size: 0.95rem;
+      margin: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+      font-size: 1.2rem;
+  }
+
+  nav a {
+      font-size: 0.9rem;
+  }
+}
