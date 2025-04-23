@@ -1,7 +1,7 @@
 import './App.css';
-import Navegacao from './Navegacao';
-import Body from './Body';
-import Main from './Main';
+import Navegacao from './Componentes/Navegacao';
+import Body from './Componentes/Body';
+import Main from './Componentes/Main';
 
 function App() {
   return (
