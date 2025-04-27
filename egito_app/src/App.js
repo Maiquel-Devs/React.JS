@@ -1,7 +1,6 @@
 import './App.css';
 import Navegacao from './Componentes/Navegacao';
 import Body from './Componentes/Body';
-import Main from './Componentes/Main';
 import Rotas_Nav from './Componentes/Rotas_Nav'; // Rota
 
 // Importando Rotas
@@ -17,7 +16,7 @@ function App() {
       <Rotas_Nav />
       </Router>
 
-      <Main />
+     
     </div>
   );
 }

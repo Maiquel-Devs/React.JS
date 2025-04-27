@@ -10,8 +10,8 @@ function Navegacao(props) {
     <nav>
       <Link to="/">Início</Link>
       <Link to="/historia">História</Link>
-      <a href="#">Cultura</a>
-      <a href="#">Religião</a>
+      <Link to="/cultura">Cultura</Link>
+      <Link to="/religiao">Religião</Link>
     </nav>
       </header>
     </div>

@@ -1,0 +1,41 @@
+/* Imagens Para Celular */
+#imagem-hierarquia,
+#imagem-templo,
+#imagem-festa,
+#imagem-guerra{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+/* Imagen na Religião.js*/
+#imagem-hapi {
+    width: 100%; 
+    height: auto; 
+    max-width: 600px; 
+  }
+
+/* Telas Maiores que um celular */
+@media (min-width: 768px) {
+
+    #imagem-hierarquia {
+        width: 500px;
+        height: auto;
+    }
+
+    #imagem-templo {
+        width: 600px;
+        height: auto;
+    }
+
+    #imagem-festa {
+        width: 400px;
+        height: auto;
+    }
+
+    #imagem-guerra {
+        width: 600px;
+        height: auto;
+    }
+
+}
