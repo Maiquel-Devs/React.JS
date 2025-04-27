@@ -45,7 +45,7 @@ function Religiao() {
 </main>
 
 <footer>
-    <p>&copy; 2025 - Seu Nome ou Nome do Site</p>
+    <p>&copy; 2025 -  Baixo e Alto Egito</p>
 </footer>
 
       </div>

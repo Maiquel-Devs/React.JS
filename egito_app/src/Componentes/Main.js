@@ -3,6 +3,7 @@ import './Main.css';
 function Main() {
     return (
       <div className="Main">
+
         <main>
     <section class="conteudo">
       <h2>O Rio Nilo e as Duas Terras</h2>
@@ -33,25 +34,26 @@ function Main() {
       </p>
 
       <figure>
-        <img src="/imagens/Baixo_E_Alto_Egito.gif" alt="Mapa do Egito Antigo com divisão entre Alto e Baixo Egito" />
+          <img src="/imagens/Baixo_E_Alto_Egito.gif" alt="Mapa do Egito Antigo com divisão entre Alto e Baixo Egito" />
         <figcaption>
           Mapa do Egito Antigo mostrando a divisão entre o Alto Egito (sul) e o Baixo Egito (norte).
         </figcaption>
       </figure>
 
       <figure>
-        <img src="/imagens/UnificaçãoDoReino.jpg" alt="Unificação da coroa do faraó do Alto e Baixo Egito" />
+          <img src="/imagens/UnificaçãoDoReino.jpg" alt="Unificação da coroa do faraó do Alto e Baixo Egito" />
         <figcaption>
           Unificação da coroa do faraó do Alto e Baixo Egito.
         </figcaption>
       </figure>
 
     </section>
-  </main>
+        </main>
 
   <footer>
-    <p>&copy; 2025 - Seu Nome ou Nome do Site</p>
+    <p>&copy; 2025 - Baixo e Alto Egito</p>
   </footer>
+  
       </div>
     );
   }
