@@ -1,0 +1,13 @@
+1 - Criar as funções para jogar na rota      --> Nesse caso o Home.js e Sobre.js
+
+2 - Voçê cria o nome da rota usando <Link to = 'nome da rota' />  --> No Nav.js
+
+3 - Voçê redireciona o nome da rota na função desejada, usando <Route path= 'nome da rota' element= {nome da função}  ---> No App.js 
+
+Resumindo você cria a rota e depois redireciona na função que quer redenrizar
+
+ordem dos arquivos App.js, Nav.js , Home.js, Sobre.js
+
+
+
+' tenho que mudar o componente main '
