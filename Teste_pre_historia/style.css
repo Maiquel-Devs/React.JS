@@ -1,0 +1,80 @@
+/* Variáveis de cores */
+:root {
+    --marrom-terra: #7B3F00;
+    --bege-areia: #D2B48C;
+    --laranja-queimado: #CC7722;
+    --cinza-pedra: #A9A9A9;
+    --branco-antigo: #F5F5DC;
+    --preto: #000000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--bege-areia);
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    background-color: var(--marrom-terra);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--branco-antigo);
+}
+
+.navbar h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: var(--branco-antigo);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--laranja-queimado);
+}
+
+
+.content {
+    background-color: var(--branco-antigo);
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.content section {
+    margin-bottom: 3rem;
+}
+
+.content h2 {
+    color: var(--marrom-terra);
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--preto); 
+}
