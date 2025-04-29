@@ -1,0 +1,13 @@
+:root {
+    --marrom-terra: #7B3F00;
+    --bege-areia: #D2B48C;
+    --laranja-queimado: #CC7722;
+    --cinza-pedra: #A9A9A9;
+    --branco-antigo: #F5F5DC;
+    --preto: #000000;
+}
+
+body {
+    background-color: var(--bege-areia);
+    font-family: Arial, sans-serif;
+}
