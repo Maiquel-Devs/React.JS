@@ -1,16 +1,21 @@
 import './App.css';
 import Body from './Componenetes/Body';
-import Idade_Pedra from './Componenetes/Idade_Pedra';
 import Nav from './Componenetes/Nav';
+import AppRoutes from './Componenetes/AppRoutes';
+
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Body />
 
+     
+      <Router>
       <Nav />
-      <Idade_Pedra />
-      
+      <AppRoutes /> 
+      </Router>
+
     </div>
   );
 }

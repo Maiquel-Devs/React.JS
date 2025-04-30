@@ -1,0 +1,72 @@
+:root {
+    --marrom-terra: #7B3F00;
+    --bege-areia: #D2B48C;
+    --laranja-queimado: #CC7722;
+    --cinza-pedra: #A9A9A9;
+    --branco-antigo: #F5F5DC;
+    --preto: #000000;
+  }
+  
+  .Idade_Bronze {
+    background-color: var(--branco-antigo);
+    padding: 3rem;
+    margin: 2rem auto;
+    max-width: 950px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .Idade_Bronze section {
+    margin-bottom: 4rem;
+  }
+  
+  .Idade_Bronze h2 {
+    color: var(--marrom-terra);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .Idade_Bronze p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--preto);
+    margin-bottom: 1.8rem;
+    text-align: justify;
+  }
+  
+  .Idade_Bronze strong {
+    color: var(--laranja-queimado);
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .Idade_Bronze {
+      padding: 2rem;
+      max-width: 90%;
+    }
+  
+    .Idade_Bronze h2 {
+      font-size: 1.8rem;
+    }
+  
+    .Idade_Bronze p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Idade_Bronze {
+      padding: 1.5rem;
+      max-width: 95%;
+    }
+  
+    .Idade_Bronze h2 {
+      font-size: 1.6rem;
+    }
+  
+    .Idade_Bronze p {
+      font-size: 1rem;
+    }
+  }
+      
