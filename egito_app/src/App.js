@@ -1,6 +1,7 @@
 import './App.css';
 import Navegacao from './Componentes/Navegacao';
 import Body from './Componentes/Body';
+import Footer from './Componentes/Footer';
 import Rotas_Nav from './Componentes/Rotas_Nav'; // Rota
 
 // Importando Rotas
@@ -15,6 +16,8 @@ function App() {
       <Navegacao />
       <Rotas_Nav />
       </Router>
+
+      <Footer />
 
      
     </div>
