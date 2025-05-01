@@ -2,38 +2,34 @@
     --marrom-terra: #7B3F00;
     --bege-areia: #D2B48C;
     --laranja-queimado: #CC7722;
+    --cinza-ferro: #808080; 
     --cinza-pedra: #A9A9A9;
     --branco-antigo: #F5F5DC;
     --preto: #000000;
 }
 
-.content {
+.Idade_Ferro {
     background-color: var(--branco-antigo);
     padding: 3rem;
     margin: 2rem auto;
     max-width: 950px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.content section {
+.Idade_Ferro section {
     margin-bottom: 4rem;
 }
 
-.content h2 {
+.Idade_Ferro h2 {
     color: var(--marrom-terra);
     margin-bottom: 1.5rem;
     font-size: 2rem;
+    font-weight: bold; 
 }
 
-.content h3 {
-    color: var(--laranja-queimado);
-    font-size: 1.6rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.content p {
+.Idade_Ferro p {
     font-size: 1.2rem;
     line-height: 1.8;
     color: var(--preto);
@@ -41,59 +37,64 @@
     text-align: justify;
 }
 
-.content figure {
-    text-align: center; /* Centraliza as imagens */
-    margin: 2rem 0; /* Espaçamento em torno da figura */
+.Idade_Ferro strong {
+    color: var(--cinza-ferro); 
+    font-weight: bold; 
 }
 
-.content img {
-    max-width: 100%; /* A imagem ocupará no máximo 100% da largura do seu contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 8px; /* Borda arredondada para as imagens */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para as imagens */
+.Idade_Ferro figure {
+    text-align: center; 
+    margin: 2rem 0; 
 }
 
-.content figcaption {
-    font-size: 1rem; /* Tamanho de fonte para a legenda */
-    color: var(--cinza-pedra); /* Cor da legenda */
-    margin-top: 0.5rem; /* Espaçamento entre a imagem e a legenda */
-    font-style: italic; /* Estilo itálico para a legenda */
+.Idade_Ferro img {
+    max-width: 60%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.Idade_Ferro figcaption {
+    font-size: 1rem; 
+    color: var(--cinza-pedra); 
+    margin-top: 0.5rem; 
+    font-style: italic; 
 }
 
 @media (max-width: 768px) {
-    .content {
-        padding: 2rem; 
-        max-width: 90%; 
+    .Idade_Ferro {
+        padding: 2rem;
+        max-width: 90%;
     }
 
-    .content h2 {
-        font-size: 1.8rem; 
+    .Idade_Ferro h2 {
+        font-size: 1.8rem;
     }
 
-    .content h3 {
-        font-size: 1.4rem; 
-    }
-
-    .content p {
+    .Idade_Ferro p {
         font-size: 1.1rem;
+    }
+
+    .Idade_Ferro img {
+        max-width: 80%; 
     }
 }
 
 @media (max-width: 480px) {
-    .content {
-        padding: 1.5rem; 
-        max-width: 95%; 
+    .Idade_Ferro {
+        padding: 1.5rem;
+        max-width: 95%;
     }
 
-    .content h2 {
-        font-size: 1.6rem; 
+    .Idade_Ferro h2 {
+        font-size: 1.6rem;
     }
 
-    .content h3 {
-        font-size: 1.3rem; 
+    .Idade_Ferro p {
+        font-size: 1rem;
     }
 
-    .content p {
-        font-size: 1rem; 
+    .Idade_Ferro img {
+        max-width: 90%; 
     }
 }

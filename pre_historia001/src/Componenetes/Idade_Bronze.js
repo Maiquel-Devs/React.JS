@@ -14,8 +14,8 @@ function Idade_Bronze() {
         </p>
 
         <figure>
-            <img src="/imagens/Introducao_idade-da-pedra.webp" alt="Pessoas dentro de uma caverna no Paleolítico" />
-            <figcaption>Povos antigos abrigados em cavernas para se proteger.</figcaption>
+            <img src="/imagens/Objetos_de_Bronze.jpg" alt="Pessoas dentro de uma caverna no Paleolítico" />
+            <figcaption>Ferramentas de bronze usadas para caça, agricultura e construção.</figcaption>
         </figure>
 
         <p>
@@ -23,8 +23,8 @@ function Idade_Bronze() {
         </p>
 
         <figure>
-            <img src="/imagens/Introducao_idade-da-pedra.webp" alt="Pessoas dentro de uma caverna no Paleolítico" />
-            <figcaption>Povos antigos abrigados em cavernas para se proteger.</figcaption>
+            <img src="/imagens/Mapa_Civilização.jpg" alt="Pessoas dentro de uma caverna no Paleolítico" />
+            <figcaption>Mapa mostrando as rotas comerciais dos povos da Idade do Bronze.</figcaption>
         </figure>
 
         <p>
@@ -32,8 +32,8 @@ function Idade_Bronze() {
         </p>
 
         <figure>
-            <img src="/imagens/Introducao_idade-da-pedra.webp" alt="Pessoas dentro de uma caverna no Paleolítico" />
-            <figcaption>Povos antigos abrigados em cavernas para se proteger.</figcaption>
+            <img src="/imagens/Sociedade_Bronze.jpg" alt="Pessoas dentro de uma caverna no Paleolítico" />
+            <figcaption>Reconstituição de um povoado da Idade do Bronze com habitações e áreas de trabalho.</figcaption>
         </figure>
 
         <p>
@@ -41,8 +41,8 @@ function Idade_Bronze() {
         </p>
 
         <figure>
-            <img src="/imagens/Introducao_idade-da-pedra.webp" alt="Pessoas dentro de uma caverna no Paleolítico" />
-            <figcaption>Povos antigos abrigados em cavernas para se proteger.</figcaption>
+            <img src="/imagens/Artefato_Religioso_Bronze.jpg" alt="Pessoas dentro de uma caverna no Paleolítico" />
+            <figcaption>Artefato religioso de bronze usado em rituais da Idade do Bronze.</figcaption>
         </figure>
 
         <p>

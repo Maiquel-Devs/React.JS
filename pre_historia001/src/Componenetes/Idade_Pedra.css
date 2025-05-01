@@ -14,6 +14,7 @@
     max-width: 950px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content section {
@@ -24,6 +25,7 @@
     color: var(--marrom-terra);
     margin-bottom: 1.5rem;
     font-size: 2rem;
+    font-weight: bold; 
 }
 
 .content h3 {
@@ -41,37 +43,42 @@
     text-align: justify;
 }
 
+.content strong {
+    color: var(--marrom-terra); 
+    font-weight: bold; 
+}
+
 .content figure {
-    text-align: center; /* Centraliza as imagens */
-    margin: 2rem 0; /* Espaçamento em torno da figura */
+    text-align: center; 
+    margin: 2rem 0; 
 }
 
 .content img {
-    max-width: 100%; /* A imagem ocupará no máximo 100% da largura do seu contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 8px; /* Borda arredondada para as imagens */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para as imagens */
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .content figcaption {
-    font-size: 1rem; /* Tamanho de fonte para a legenda */
-    color: var(--cinza-pedra); /* Cor da legenda */
-    margin-top: 0.5rem; /* Espaçamento entre a imagem e a legenda */
-    font-style: italic; /* Estilo itálico para a legenda */
+    font-size: 1rem; 
+    color: var(--cinza-pedra); 
+    margin-top: 0.5rem; 
+    font-style: italic; 
 }
 
 @media (max-width: 768px) {
     .content {
-        padding: 2rem; 
-        max-width: 90%; 
+        padding: 2rem;
+        max-width: 90%;
     }
 
     .content h2 {
-        font-size: 1.8rem; 
+        font-size: 1.8rem;
     }
 
     .content h3 {
-        font-size: 1.4rem; 
+        font-size: 1.4rem;
     }
 
     .content p {
@@ -81,19 +88,19 @@
 
 @media (max-width: 480px) {
     .content {
-        padding: 1.5rem; 
-        max-width: 95%; 
+        padding: 1.5rem;
+        max-width: 95%;
     }
 
     .content h2 {
-        font-size: 1.6rem; 
+        font-size: 1.6rem;
     }
 
     .content h3 {
-        font-size: 1.3rem; 
+        font-size: 1.3rem;
     }
 
     .content p {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
 }

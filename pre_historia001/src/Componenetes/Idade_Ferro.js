@@ -18,8 +18,8 @@ function Idade_Ferro() {
         </p>
 
         <figure>
-            <img src="/imagens/Introducao_idade-da-pedra.webp" alt="Pessoas dentro de uma caverna no Paleolítico" />
-            <figcaption>Povos antigos abrigados em cavernas para se proteger.</figcaption>
+            <img src="/imagens/Ferramentas_Ferro.jpg" alt="Pessoas dentro de uma caverna no Paleolítico" />
+            <figcaption>Ferramentas de ferro, ilustrando a habilidade tecnológica da Idade do Ferro.</figcaption>
         </figure>
 
         <p>
@@ -27,8 +27,8 @@ function Idade_Ferro() {
         </p>
 
         <figure>
-            <img src="/imagens/Introducao_idade-da-pedra.webp" alt="Pessoas dentro de uma caverna no Paleolítico" />
-            <figcaption>Povos antigos abrigados em cavernas para se proteger.</figcaption>
+            <img src="/imagens/Civlização.png" alt="Pessoas dentro de uma caverna no Paleolítico" />
+            <figcaption>Mapa das cidades e estados na Idade do Ferro, mostrando a expansão.</figcaption>
         </figure>
 
         <p>
@@ -36,8 +36,8 @@ function Idade_Ferro() {
         </p>
 
         <figure>
-            <img src="/imagens/Introducao_idade-da-pedra.webp" alt="Pessoas dentro de uma caverna no Paleolítico" />
-            <figcaption>Povos antigos abrigados em cavernas para se proteger.</figcaption>
+            <img src="/imagens/Estatua_Ferro.jpeg" alt="Pessoas dentro de uma caverna no Paleolítico" />
+            <figcaption>Estátua de ferro, representando a arte e os avanços culturais na época.</figcaption>
         </figure>
 
         <p>
